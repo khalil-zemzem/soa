@@ -9,6 +9,7 @@ import java.util.List;
 
 public class EtudiantBusiness {
     private static List<Etudiant> etudiants;
+    public Etudiant getAllEtudiants;
     private OptionBusiness optionBusiness = new OptionBusiness();
 
     public EtudiantBusiness() {
